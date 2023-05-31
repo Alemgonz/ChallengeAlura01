@@ -1,0 +1,140 @@
+
+.img-encabezado{
+    width: 100%;
+}
+
+body{
+    background: #000000;
+}
+
+main{
+    display: flex;
+    background: #000000;
+}
+
+.mensaje1, .mensaje2{
+    width: 30em;
+    height: 20em;
+    background: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.mensaje-entrada{
+    margin: 3em 2em 3em 5em;
+}
+
+.botones{
+    margin: auto 2em;
+}
+
+.botones button{
+    margin: 0 4em;
+    color: #ffffff;
+    font-weight: bold;
+    background: #095718;
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.botones button:hover{
+    background: #3C8249;
+}
+
+.botones button:active{    
+    color: #BDBDBD;
+}
+
+.mensaje-salida{
+    margin: 3em 0;
+}
+
+.copiar{
+    position: absolute;
+    background-image: url(imagenes/copiar.png);
+    width: 53px;
+    height: 51px;
+    right: 9em;
+    top: 540px;
+    cursor: pointer;
+}
+
+.mensaje2 {
+    background-image: url(imagenes/no-encontrado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+
+form{
+    display: inline;
+    background: #000000;
+}
+
+.mensaje1, .mensaje2{
+    width: 30%;
+    height: 20em;
+    text-align: center;
+    background: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+#mensaje-entrada{
+    margin: 3em 2em 3em 2em;
+}
+
+.boton-encriptar, .boton-desencriptar{
+    margin: 0 4em;
+    color: #ffffff;
+    font-weight: bold;
+    background: #095718;
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.boton-encriptar:hover, .boton-desencriptar:hover{
+    background: #3C8249;
+}
+
+.boton-encriptar:active, .boton-desencriptar:active{
+    color: #BDBDBD;
+}
+
+#mensaje-salida{
+    margin: 3em 2em 3em 2em;
+}
+
+.no-encontrado{
+    position: absolute;
+    width: 234px;
+    right: 180px;
+    top: 350px;
+}
+
+.copiar{
+    position: absolute;
+    background-image: url(imagenes/copiar.png);
+    width: 53px;
+    height: 51px;
+    right: 5em;
+    top: 500px;
+    cursor: pointer;
+}
+
+.no-encontrado:hover{
+    display: none;
+}
+
+*/
+
+.img-footer{
+    width: 100%;
+}

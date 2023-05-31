@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang ="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="encabezado">                
+                <h1><img src="imagenes/heder.png" alt="encabezado" class="img-encabezado"></h1>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="mensaje-entrada">
+                <textarea name="entrada" cols="30" rows="10" placeholder="Escribe un mensaje usando solo letras minusculas" class="mensaje1" style="text-transform:lowercase;" onkeypress="return ((event.charCode >= 97 && event.charCode <= 122)) || event.charCode == 32"></textarea>
+            </section>
+
+            <section class="botones">
+                <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="btnDesncriptar()">Desencriptar</button>
+            </section>
+
+            <section class="mensaje-salida">
+                <textarea class="mensaje2" name="salida" cols="30" rows="10"></textarea>
+                <button class="copiar" onclick="copiar()" title="Copiar texto"></button>
+            </section>
+
+            <!--<form>
+            
+                <label for="mensaje-entrada"></label>
+                <input type="text" id="mensaje-entrada" placeholder="Escribe un mensaje" onkeypress="return ((event.charCode >= 97 && event.charCode <= 122))" class="mensaje1" required>
+                
+                <input type="submit" value="encriptar" class="boton-encriptar">
+
+                <script>
+
+                    function encriptar() {
+                        var mensaje = document.querySelector(".mensaje1");
+
+                        document.write(mensaje)
+                    }
+
+                    function alerta() {
+                        alert("encriptado");
+                    }
+
+                    var buttonEncriptar = document.querySelector(".boton-encriptar");
+                    buttonEncriptar.onclick = encriptar;
+                </script>
+    
+                <input type="submit" value="Desencriptar" class="boton-desencriptar">
+    
+            </form>
+    
+            <form>
+        
+                <label for="mensaje-salida"></label>
+                <input type="text" id="mensaje-salida" placeholder="Ningun mensaje se ha encontrado" class="mensaje2" onkeypress="return ((event.charCode >= 97 && event.charCode <= 122))" required>
+
+                <img src="imagenes/no-encontrado.png" alt="no-encontrado" class="no-encontrado">
+
+                <input type="submit" title="Copiar texto" value="" class="copiar"> 
+    
+            </form>-->
+        </main>
+        
+        <footer>
+            <img src="imagenes/footer.png" alt="pie de pagina" class="img-footer">
+        </footer>
+
+        <script src="script.js"></script>
+
+
+    </body>
+
+</html>
+
