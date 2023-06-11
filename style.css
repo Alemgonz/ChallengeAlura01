@@ -57,7 +57,7 @@ main{
     background-image: url(imagenes/copiar.png);
     width: 53px;
     height: 51px;
-    right: 9em;
+    left: 106em;
     top: 540px;
     cursor: pointer;
 }
@@ -137,4 +137,81 @@ form{
 
 .img-footer{
     width: 100%;
+}
+
+.linkedin{
+    position: absolute;
+    left: 44%;
+    bottom: 0em;
+}
+
+.github{
+    position: absolute;
+    left: 51%;
+    bottom: 0em;
+}
+
+@media screen and (max-width:480px){
+    .img-encabezado{
+        width: auto;
+    }
+
+    main{
+        display: block;
+    }
+
+    .mensaje1, .mensaje2{
+        font-size: 5em;
+        width: 20em;
+        height: 15em;
+        background: #000000;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+    }
+
+    .mensaje-entrada, .mensaje-salida{
+        margin: 2em 2em 3em 5em;
+    }
+
+    .botones button{
+        font-size: 5em;
+        margin: 1em 4em;
+        width: 10em;
+        height: 2em;
+        border-radius: 30px;
+    }
+
+    .copiar{
+        position: absolute;
+        background-image: url(imagenes/copiar.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 200px;
+        height: 200px;
+        left: 85em;
+        top: 200em;
+    }
+
+    .mensaje2 {
+        background-image: url(imagenes/no-encontrado.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 80%;
+    }
+
+    .img-footer{
+        width: auto;
+    }
+
+    .linkedin{
+        position: absolute;
+        left: 30em;
+        bottom: -140em;
+    }
+    
+    .github{
+        position: absolute;
+        left: 38em;
+        bottom: -140em;
+    }
 }
